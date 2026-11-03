@@ -12,4 +12,9 @@ export const TYPOGRAPHY = {
     lineHeight: moderateScale(18),
     fontWeight: '400',
   },
+  badge: {
+    fontSize: moderateScale(8),
+    lineHeight: moderateScale(10),
+    fontWeight: '700',
+  },
 } as const;
