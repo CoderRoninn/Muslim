@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { COLORS, TYPOGRAPHY } from '../../../const/theme';
+import { COLORS, SIZES, TYPOGRAPHY } from '../../../const/theme';
 import { scale } from '../../../utils/responsive';
 
 const styles = StyleSheet.create({
@@ -9,9 +9,9 @@ const styles = StyleSheet.create({
     gap: scale(12),
   },
   avatarContainer: {
-    width: scale(56),
-    height: scale(56),
-    borderRadius: scale(28),
+    width: SIZES.circle.large,
+    height: SIZES.circle.large,
+    borderRadius: SIZES.circle.large / 2,
     borderWidth: 2,
     borderColor: COLORS.gold,
     backgroundColor: COLORS.gold,
@@ -34,9 +34,9 @@ const styles = StyleSheet.create({
     color: COLORS.textMuted,
   },
   notificationButton: {
-    width: scale(44),
-    height: scale(44),
-    borderRadius: scale(22),
+    width: SIZES.circle.medium,
+    height: SIZES.circle.medium,
+    borderRadius: SIZES.circle.medium / 2,
     borderWidth: 1,
     borderColor: 'white',
     alignItems: 'center',

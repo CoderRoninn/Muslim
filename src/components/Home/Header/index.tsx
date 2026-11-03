@@ -2,7 +2,7 @@ import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import { useTranslation } from 'react-i18next';
 import { Text, View } from 'react-native';
-import { scale } from '../../../utils/responsive';
+import { SIZES } from '../../../const/theme';
 import styles from './styles';
 
 const Header = () => {
@@ -15,7 +15,10 @@ const Header = () => {
       {/* Avatar circle */}
       <View style={styles.avatarContainer}>
         {/* User icon */}
-        <FontAwesome6 name="user" size={scale(24)} color="black" />
+        <FontAwesome6 
+          name="user" 
+          size={SIZES.icon.medium} 
+          color="black" />
       </View>
       {/* Texts next to the avatar */}
       <View style={styles.textContainer}>
@@ -27,7 +30,11 @@ const Header = () => {
       {/* Notification button */}
       <View style={styles.notificationButton}>
         {/* Bell icon */}
-        <MaterialCommunityIcons name="bell" size={scale(24)} color="white" />
+        <MaterialCommunityIcons
+          name="bell"
+          size={SIZES.icon.medium}
+          color="white"
+        />
       </View>
     </View>
   );
