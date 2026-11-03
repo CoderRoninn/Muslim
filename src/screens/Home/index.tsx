@@ -1,5 +1,6 @@
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import Header from '../../components/Home/Header';
 import styles from './styles';
 
 const Home = () => {
@@ -7,8 +8,8 @@ const Home = () => {
   const insets = useSafeAreaInsets();
 
   return (
-    <View style={[styles.container, { paddingTop: insets.top }]}>
-      <Text>Home</Text>
+    <View style={[styles.container, { paddingTop: insets.top + 16 }]}>
+      <Header />
     </View>
   );
 };
