@@ -35,6 +35,12 @@ const Header = () => {
           size={SIZES.icon.medium}
           color="white"
         />
+        {/* Notification count badge */}
+        <View style={styles.badge}>
+          <Text style={styles.badgeText} allowFontScaling={false}>
+            2
+          </Text>
+        </View>
       </View>
     </View>
   );
