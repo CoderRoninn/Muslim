@@ -1,11 +1,13 @@
+import { scale } from '../../utils/responsive';
+
 // App spacing values
 export const SPACING = {
-  extraSmall: 4,
-  small: 8,
-  medium: 12,
-  large: 16,
-  extraLarge: 20,
-  huge: 24,
-  massive: 28,
-  giant: 32,
+  extraSmall: scale(4),
+  small: scale(8),
+  medium: scale(12),
+  large: scale(16),
+  extraLarge: scale(20),
+  huge: scale(24),
+  massive: scale(28),
+  giant: scale(32),
 } as const;
