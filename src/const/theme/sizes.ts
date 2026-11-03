@@ -6,6 +6,7 @@ export const SIZES = {
     medium: scale(24),
   },
   circle: {
+    small: scale(16),
     medium: scale(36),
     large: scale(48),
   },
