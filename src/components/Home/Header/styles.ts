@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { COLORS, SIZES, TYPOGRAPHY } from '../../../const/theme';
+import { COLORS, SIZES, SPACING, TYPOGRAPHY } from '../../../const/theme';
 import { scale } from '../../../utils/responsive';
 
 const styles = StyleSheet.create({
@@ -38,9 +38,29 @@ const styles = StyleSheet.create({
     height: SIZES.circle.medium,
     borderRadius: SIZES.circle.medium / 2,
     borderWidth: 1,
-    borderColor: 'white',
+    borderColor: COLORS.translucentBorder,
+    backgroundColor: COLORS.translucentBackground,
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  badge: {
+    position: 'absolute',
+    top: -SPACING.extraSmall,
+    end: -SPACING.extraSmall,
+    width: SIZES.circle.small,
+    height: SIZES.circle.small,
+    borderRadius: SIZES.circle.small / 2,
+    backgroundColor: COLORS.notificationBadge,
+    borderWidth: 1,
+    borderColor: COLORS.background,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  badgeText: {
+    fontSize: TYPOGRAPHY.badge.fontSize,
+    lineHeight: TYPOGRAPHY.badge.lineHeight,
+    fontWeight: TYPOGRAPHY.badge.fontWeight,
+    color: COLORS.text,
   },
 });
 
