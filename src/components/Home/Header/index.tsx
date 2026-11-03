@@ -21,11 +21,8 @@ const Header = () => {
       <View style={styles.textContainer}>
         {/* Title */}
         <Text style={styles.title}>{t('home.header.title')}</Text>
-        {/* Subtitle row */}
-        <View style={styles.subtitleContainer}>
-          {/* Subtitle */}
-          <Text style={styles.subtitle}>{t('home.header.subtitle')}</Text>
-        </View>
+        {/* Subtitle */}
+        <Text style={styles.subtitle}>{t('home.header.subtitle')}</Text>
       </View>
       {/* Notification button */}
       <View style={styles.notificationButton}>
