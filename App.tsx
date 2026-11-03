@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import './src/localization';
 import Home from './src/screens/Home';
 
 const App = () => {
