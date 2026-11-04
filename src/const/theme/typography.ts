@@ -12,6 +12,17 @@ export const TYPOGRAPHY = {
     lineHeight: moderateScale(18),
     fontWeight: '400',
   },
+  time: {
+    fontSize: moderateScale(32),
+    lineHeight: moderateScale(40),
+    fontWeight: '800',
+    letterSpacing: 0.5,
+  },
+  label: {
+    fontSize: moderateScale(12),
+    lineHeight: moderateScale(16),
+    fontWeight: '600',
+  },
   badge: {
     fontSize: moderateScale(8),
     lineHeight: moderateScale(10),
