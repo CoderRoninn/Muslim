@@ -11,6 +11,15 @@
       "country": "Türkiye",
       "remaining": "İmsak vaktine 7 sa 31 dk kaldı",
       "viewAll": "Tüm namaz vakitlerini görüntüle"
+    },
+    "quickAccess": {
+      "quran": "Kur'an",
+      "prayer": "Namaz",
+      "tasbih": "Zikir",
+      "qibla": "Kıble",
+      "pray": "Dualar",
+      "mosque": "Cami Bul",
+      "quiz": "Bil Bakalım"
     }
   }
 }
