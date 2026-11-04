@@ -3,6 +3,14 @@
     "header": {
       "title": "With Greetings And Prayers",
       "subtitle": "Tuesday, November 3"
+    },
+    "prayerCard": {
+      "now": "Now",
+      "prayerName": "Isha",
+      "district": "Bağlar,",
+      "country": "Turkey",
+      "remaining": "7h 31m until Fajr time",
+      "viewAll": "View all prayer times"
     }
   }
 }

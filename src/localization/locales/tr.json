@@ -3,6 +3,14 @@
     "header": {
       "title": "Selam Ve Dua İle",
       "subtitle": "Salı, 3 Kasım"
+    },
+    "prayerCard": {
+      "now": "Şimdi",
+      "prayerName": "Yatsı",
+      "district": "Bağlar,",
+      "country": "Türkiye",
+      "remaining": "İmsak vaktine 7 sa 31 dk kaldı",
+      "viewAll": "Tüm namaz vakitlerini görüntüle"
     }
   }
 }
