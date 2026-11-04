@@ -8,6 +8,16 @@ const styles = StyleSheet.create({
     paddingHorizontal: SPACING.extraLarge,
     gap: SPACING.huge,
   },
+  // Cancels the screen side padding so cards can scroll to the edges
+  quickAccessList: {
+    marginHorizontal: -SPACING.extraLarge,
+    flexGrow: 0,
+  },
+  // Brings the first card back to the screen side padding
+  quickAccessContent: {
+    paddingHorizontal: SPACING.extraLarge,
+    gap: SPACING.medium,
+  },
 });
 
 export default styles;
