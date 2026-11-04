@@ -1,6 +1,7 @@
 import { View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Header from '../../components/Home/Header';
+import PrayerCard from '../../components/Home/PrayerCard';
 import styles from './styles';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
   return (
     <View style={[styles.container, { paddingTop: insets.top + 16 }]}>
       <Header />
+      <PrayerCard />
     </View>
   );
 };
