@@ -2,6 +2,7 @@ import { View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Header from '../../components/Home/Header';
 import PrayerCard from '../../components/Home/PrayerCard';
+import QuickAccess from '../../components/Home/QuickAccess';
 import styles from './styles';
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
     <View style={[styles.container, { paddingTop: insets.top + 16 }]}>
       <Header />
       <PrayerCard />
+      <QuickAccess />
     </View>
   );
 };
